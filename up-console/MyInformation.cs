@@ -27,7 +27,7 @@ namespace up_console
         /// <summary>
         /// Scopes to request access to the protected Web API (here Microsoft Graph)
         /// </summary>
-        private static string[] Scopes { get; set; } = new string[] { "User.Read", "User.ReadBasic.All" };
+        private static string[] Scopes { get; set; } = new string[] { "User.Read" };
 
         /// <summary>
         /// Base endpoint for Microsoft Graph
